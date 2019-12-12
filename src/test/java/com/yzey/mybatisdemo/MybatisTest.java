@@ -41,7 +41,6 @@ public class MybatisTest {
     System.out.println(date);
     Date round = DateUtils.round(date, Calendar.HOUR);// 2017-06-04 01:00:00
     Date ceiling = DateUtils.ceiling(date, Calendar.HOUR);
-    System.out.println(ceiling);
     System.out.println(round);
 //printA(3);
   }
